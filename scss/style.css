@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body header #headerTop, body header #headerBottom ul, body header #headerBottom div {
+  /* placeholder*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around; }
+
+body header #headerTop {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  justify-content: space-between;
+  /* mettre 'extend' pour recuperer les infos du placeholder voulu*/
+  background-color: black; }
+  body header #headerTop h1 {
+    color: palevioletred;
+    text-transform: uppercase;
+    margin-left: 12%; }
+  body header #headerTop form {
+    margin-right: 12%; }
+    body header #headerTop form input {
+      border: none;
+      background-color: palevioletred;
+      border-radius: 10px;
+      padding: 2%; }
+body header #headerBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  body header #headerBottom ul {
+    font-family: Georgia, 'Times New Roman', Times, serif; }
+    body header #headerBottom ul li {
+      list-style: none;
+      margin: 20px; }
+      body header #headerBottom ul li a {
+        text-decoration: none;
+        color: black; }
+  body header #headerBottom div div {
+    border-left: thin grey solid;
+    border-right: thin grey solid;
+    padding: 10%;
+    height: 100%; }
+    body header #headerBottom div div img {
+      width: 24px;
+      height: 24px;
+      margin-right: 20%; }
+    body header #headerBottom div div span {
+      background-color: grey;
+      border-radius: 4px;
+      padding: 8px; }
+
+/*# sourceMappingURL=style.css.map */
